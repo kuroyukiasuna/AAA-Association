@@ -1,4 +1,4 @@
-<!DOCTYPE html>66666
+<!DOCTYPE html>
 <html>
 <body>
 <style>
