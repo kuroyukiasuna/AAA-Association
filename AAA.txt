@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+#dmo {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: #ff0000;
+  top:0px;
+  left: 400px;
+}
+
+#demo{
+width: 400px;
+background: #00ccff;
+}
+
+#finishhat{
+width: 500px;
+height:20px;
+background: #ffffff;
+top: 216px;
+left: 0px;
+position: absolute;
+}
+
+#db{
+width: 2px;
+height: 200px;
+background: #00ccff;
+top: 400px;
+right: 0px;
+position: absolute;
+}
+</style>
+
+<p id="demo">Click the button to change the color to Adrian's hat</p>
+
+<div id="dmo">
+</div>
+<div id="db" >
+Adrian! Adrianism! Adrianization
+</div>
+
+<div id = "finishhat">
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("dmo");
+var c = document.getElementById("getcolor");
+var t = document.getElementById("demo");
+var h = document.getElementById("finishhat");
+t.innerHTML = "Adrian! Adrianism! Adrianization!"
+t.style.background = c.value;
+x.style.background = c.value;
+x.style.height = 200+'px';
+x.style.width = 15+'px';
+x.style.top = 16+'px';
+h.style.background = c.value;
+alert("Adrian's color has been changed");
+};
+
+function pinggebug(){
+alert("congrats, you have enetered pingge's bug");
+if(confirm("do you want to exit?")){
+}else{
+i = 1;
+while(i != 0){
+alert("hahahahahahahahaha");
+i = i - 1;
+}
+}
+};
+
+function clearn(){
+var x = document.getElementById("dmo");
+var t = document.getElementById("demo");
+var h = document.getElementById("finishhat");
+x.style.background = "#ffffff";
+t.style.background = "#ffffff";
+h.style.background = "#ffffff";
+t.innerHTML = "";
+};
+
+function getdashboard(obj){
+ var id = setInterval(frame, 5);
+ var pos = 0;
+  function frame() {
+    if (pos == 700) {
+      clearInterval(id);
+    } else {
+      pos += 100; 
+      obj.style.width = pos+'px';
+    }
+}
+};
+
+function hidedashboard(obj){
+ var id = setInterval(frame, 5);
+ var pos = 700;
+  function frame() {
+    if (pos == 0) {
+      obj.style.width = 2+'px';
+      clearInterval(id);
+    } else {
+      pos -= 100; 
+      obj.style.width = pos+'px';
+    }
+}
+};
+
+function calldashboard(){
+var d  = document.getElementById("db");
+if(d.style.width === "2px"){
+getdashboard(d);
+}else{
+hidedashboard(d);
+}
+}
+
+</script>
+
+<button onclick="myFunction()">Click Me!</button>
+<button onclick="pinggebug()">Don't click!</button>
+<button onclick="clearn()">clear</button>
+<button onclick="calldashboard()">dashbodrd</button>
+</br>
+<input type="string" id="getcolor" value = #00f000>
+</input>
+
+</body>
+</html>
