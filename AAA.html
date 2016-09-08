@@ -20,7 +20,7 @@ background: #00ccff;
 width: 500px;
 height:20px;
 background: #ffffff;
-top: 216px;
+top: 96px;
 left: 0px;
 position: absolute;
 }
@@ -29,9 +29,32 @@ position: absolute;
 width: 2px;
 height: 200px;
 background: #00ccff;
-top: 400px;
-right: 0px;
-position: absolute;
+top: 20px;
+left: 0px;
+position: relative;
+}
+
+#buton1{
+display: none;
+
+}
+#buton2{
+display: none;
+
+}
+
+#buton3{
+display: none;
+
+}
+
+#buton4{
+display: none;
+
+}
+
+#getcolor{
+display: none;
 }
 </style>
 
@@ -39,11 +62,18 @@ position: absolute;
 
 <div id="dmo">
 </div>
-<div id="db" >
-Adrian! Adrianism! Adrianization
-</div>
 
 <div id = "finishhat">
+<div id="db" >
+<button id="buton1" onclick="myFunction()">Click Me!</button>
+<button id="buton2" onclick="pinggebug()">Don't click!</button>
+<button id="buton3" onclick="clearn()">clear</button>
+<button id="buton4" onclick = "test()"> test </button>
+</br>
+<input type="string" id="getcolor" value = #00f000>
+
+</div>
+
 </div>
 <script>
 function myFunction() {
@@ -51,6 +81,7 @@ function myFunction() {
 var c = document.getElementById("getcolor");
 var t = document.getElementById("demo");
 var h = document.getElementById("finishhat");
+var d  = document.getElementById("db");
 t.innerHTML = "Adrian! Adrianism! Adrianization!"
 t.style.background = c.value;
 x.style.background = c.value;
@@ -58,6 +89,9 @@ x.style.height = 200+'px';
 x.style.width = 15+'px';
 x.style.top = 16+'px';
 h.style.background = c.value;
+h.style.top = 216 + 'px';
+h.style.height = 20 + 'px';
+d.style.top = 20 + 'px';
 alert("Adrian's color has been changed");
 };
 
@@ -77,18 +111,34 @@ function clearn(){
 var x = document.getElementById("dmo");
 var t = document.getElementById("demo");
 var h = document.getElementById("finishhat");
+var d  = document.getElementById("db");
 x.style.background = "#ffffff";
 t.style.background = "#ffffff";
 h.style.background = "#ffffff";
+h.style.top = 60 + 'px';
+h.style.height = 1 + 'px';
+db.style.top = 3 + 'px';
 t.innerHTML = "";
 };
 
 function getdashboard(obj){
-var id = setInterval(frame, 5);
-var pos = 0;
+var d1  = document.getElementById("buton1");
+var d2  = document.getElementById("buton2");
+var d3  = document.getElementById("buton3");
+var d4  = document.getElementById("buton4");
+var c = document.getElementById("getcolor");
+ var id = setInterval(frame, 5);
+ var pos = 0;
   function frame() {
     if (pos == 700) {
       clearInterval(id);
+      //obj.innerHTML = "Adrian! Adrianism! Adrianization!";
+      d1.style.display = "inline";
+      d2.style.display = "inline";
+      d3.style.display = "inline";
+      d4.style.display = "inline";
+      c.style.display = "inline";
+
     } else {
       pos += 100; 
       obj.style.width = pos+'px';
@@ -97,11 +147,21 @@ var pos = 0;
 };
 
 function hidedashboard(obj){
-var id = setInterval(frame, 5);
-var pos = 700;
+ var d1  = document.getElementById("buton1");
+ var d2  = document.getElementById("buton2");
+ var d3  = document.getElementById("buton3");
+ var d4  = document.getElementById("buton4");
+ var c = document.getElementById("getcolor");
+ var id = setInterval(frame, 5);
+ var pos = 700;
   function frame() {
     if (pos == 0) {
       obj.style.width = 2+'px';
+      d1.style.display = "none";
+      d2.style.display = "none";
+      d3.style.display = "none";
+      d4.style.display = "none";
+      c.style.display = "none";
       clearInterval(id);
     } else {
       pos -= 100; 
@@ -112,21 +172,23 @@ var pos = 700;
 
 function calldashboard(){
 var d  = document.getElementById("db");
-if(d.style.width === "2px"){
+if(d.style.width < "700px"){
 getdashboard(d);
 }else{
 hidedashboard(d);
 }
 }
 
+function test(){
+var d  = document.getElementById("db");
+}
+
 </script>
 
-<button onclick="myFunction()">Click Me!</button>
-<button onclick="pinggebug()">Don't click!</button>
-<button onclick="clearn()">clear</button>
+
 <button onclick="calldashboard()">dashbodrd</button>
-</br>
-<input type="string" id="getcolor" value = #00f000>
+
+
 </input>
 
 </body>
