@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<style>
+#dishu{
+width: 75px;
+height: 75px;
+position: relative;
+background: gold;
+
+}
+
+#container {
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  background: silver;
+}
+
+</style>
+<body>
+
+<p>
+<button onclick= "game()">game start</button>
+</p>
+<p id= "count">0</p>
+
+<div id="container">
+<div id= "dishu" onclick= "scoreplus()"></div>
+</div>
+</br>
+
+<script>
+var score = 0;
+function aler(){
+alert(233);
+};
+
+function scoreplus(){
+ score = score + 1;
+ var para = document.getElementById("count");
+ para.innerHTML = score;
+};
+
+function game(){
+var dishu = document.getElementById("dishu");
+
+var dtop = 0;
+var dleft = 0;
+var timer = 0;
+  var id = setInterval(frame, 900);
+  function frame() {
+    if (timer == 10) {
+      alert(score);
+      score = 0;
+ var para = document.getElementById("count");
+ para.innerHTML = score;
+
+      clearInterval(id);
+    } else {
+      timer++; 
+      dtop = Math.floor((Math.random() * 375));
+      dleft = Math.floor((Math.random() * 375));
+      dishu.style.top = dtop + 'px'; 
+      dishu.style.left = dleft + 'px'; 
+    }
+  }
+};
+
+</script>
+
+</body>
+</html>

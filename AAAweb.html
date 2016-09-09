@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+#pic{        <!---logo--->
+width: 200px;
+height: 90px;
+position: absolute;
+top: 0px;
+left: 0px;
+border: 2px solid #d3d3d3;
+background: #f3f3f3;
+
+}
+
+
+#navbar{ 
+ left: 140px;
+ top: 0px;
+ height: 90px;
+ width: 100%;
+ position: fixed;
+ border: 2px solid #d3d3d3;
+}
+
+</style>
+
+<title>AAA Association</title>
+<body>
+
+<img src = # alt = "AAA logo "id = "pic">
+</img>
+
+
+<canvas id="navbar">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+
+
+
+
+<script>
+var nevigationbar = document.getElementById("navbar");
+var ctx = nevigationbar.getContext("2d");
+// Create gradient
+var grd = ctx.createLinearGradient(0,0,0,200);
+grd.addColorStop(0,"#d3d3d3");
+grd.addColorStop(1,"white");
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(0,0,99999,150);
+
+function myFunction(){
+ alert("you clicked on it!");
+}
+</script>
+
+</body>
+
+</html>
