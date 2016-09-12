@@ -24,16 +24,42 @@ background: #f3f3f3;
 }
 
 #navop{
-width: 450px;
-height: 450px;
-left: 400px;
-top: 300px;
+width: 120px;
+height: 90px;
+left: 140px;
+top: 2px;
 position: absolute;
-background: white;
+background: "";
+
 }
 
+#db{
+width: 2px;
+height: 200px;
+background: #00ccff;
+top: 90px;
+left: 0px;
+position: relative;
+}
 
+#buton1{
+display: none;
 
+}
+#buton2{
+display: none;
+
+}
+
+#buton3{
+display: none;
+
+}
+
+#buton4{
+display: none;
+
+}
 
 </style>
 
@@ -47,8 +73,9 @@ background: white;
 <canvas id="navbar">
 Your browser does not support the HTML5 canvas tag.</canvas>
 
-<div id= "navop">66666666</div>
+<div id= "navop" onmouseover="mOver(this)" onmouseout="mOut(this)"  onclick = "calldashboard()"><p></br>&nbsp &nbsp &nbsp dashboard</p></div>
 
+<div id="db" ></div>
 
 
 <script>
@@ -64,6 +91,53 @@ ctx.fillRect(0,0,99999,150);
 
 function myFunction(){
  alert("you clicked on it!");
+};
+
+
+function getdashboard(obj){
+
+ var id = setInterval(frame, 5);
+ var pos = 0;
+  function frame() {
+    if (pos === 700) {
+      clearInterval(id);
+
+    } else {
+      pos += 100; 
+      obj.style.width = pos+'px';
+    }
+}
+};
+
+function hidedashboard(obj){
+ var id = setInterval(frame, 5);
+  var pos = 700;
+  function frame() {
+    if (pos === 0) {
+      obj.style.width = 2+'px';
+           clearInterval(id);
+    } else {
+      pos -= 100; 
+      obj.style.width = pos+'px';
+    }
+}
+};
+
+function calldashboard(){
+var d  = document.getElementById("db");
+if(d.style.width < "700px"){
+getdashboard(d);
+}else{
+hidedashboard(d);
+}
+};
+
+function mOver(obj){
+obj.style.background = "#d3d3d3";
+}
+
+function mOut(obj){
+obj.style.background = "";
 }
 </script>
 
