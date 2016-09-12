@@ -91,9 +91,7 @@ Your browser does not support the HTML5 canvas tag.</canvas>
 <div id= "navop2" onmouseover="mOver(this)" onmouseout="mOut(this)"  onclick = "tiankeng()"><p></br>&nbsp &nbsp &nbsp &nbsp A君语录</p></div>
 
 <div id="db" >
-<button id="buton1" onclick="getscore()">play a game</button>
-<p id="highscore">666</p>
-<input type="text" id="enterscore"></input>
+<button id="buton1" onclick="playgame()">play a game</button>
 </div>
 
 
@@ -159,33 +157,22 @@ hidedashboard(d);
 };
 
 function tiankeng(){
-//alert("平哥填坑");
-if (typeof(Storage) !== "undefined") {
-    // Store
-    
-document.getElementById("highscore").innerHTML = localStorage.getItem("highscore");
-    // Retrieve
-   
-} else {
-    document.getElementById("").innerHTML = "Sorry, your browser does not support Web Storage...";
-}
-}
+alert("平哥填坑");
+
+};
 
 
 
 
 function mOver(obj){
 obj.style.background = "#d3d3d3";
-}
+};
 
 function mOut(obj){
 obj.style.background = "";
-}
-
-function getscore(){
-var score = document.getElementById("enterscore");
-localStorage.setItem("highscore", score.value);
 };
+
+
 </script>
 
 </body>
