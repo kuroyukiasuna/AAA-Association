@@ -4,7 +4,7 @@
 <style>
 #pic{        /*logo*/
 width: 140px;
-height: 90px;
+height: 124px;
 position: absolute;
 top: 0px;
 left: 0px;
@@ -15,7 +15,7 @@ background: #f3f3f3;
 
 
 #navbar{  /*navigation bar*/
- left: 140px;
+ left: 144.3px;
  top: 0px;
  height: 90px;
  width: 100%;
@@ -26,7 +26,7 @@ background: #f3f3f3;
 #navop1{  /*option: dashboard*/
 width: 120px;
 height: 90px;
-left: 140px;
+left: 144.3px;
 top: 2px;
 position: absolute;
 background: "";
@@ -36,7 +36,7 @@ background: "";
 #navop2{  /*option: A-kun words collection*/
 width: 120px;
 height: 90px;
-left: 260px;
+left: 264.3px;
 top: 2px;
 position: absolute;
 background: "";
@@ -45,10 +45,10 @@ background: "";
 
 #db{ /*dashboard*/
 width: 2px;
-height: 27px;
+height: 32.7px;
 background: #d3d3d3;
-top: 94.8px;
-left: 0px;
+top: 94.7px;
+left: 144.3px;
 position: absolute;
 }
 
@@ -88,7 +88,7 @@ position: absolute;
 <title>AAA Association</title>
 <body>
 
-<img src = # alt = "AAA logo" id = "pic" onclick="clearmaincontent()">
+<img src= "https://raw.githubusercontent.com/kuroyukiasuna/AAA-Association/master/pic/AAAlogo.jpg" alt = "AAA logo" id = "pic" onclick="clearmaincontent()">
 </img>
 
 
