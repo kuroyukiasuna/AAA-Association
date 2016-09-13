@@ -1,6 +1,6 @@
 <p id = "gameoptions">
 <button id = "callgame" onclick= "game()">game start</button>
-<button id = "tergame" onclick= "clearmaincontent()">stop playing</button>
+<button id = "tergame" onclick= "cleargame()">stop playing</button>
 score: <span id= "count">0</span> &nbsp highscore: <span id= "highcount">0</span>
 </p>
 <div id="container">
