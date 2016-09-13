@@ -1,7 +1,8 @@
 <p id = "gameoptions">
-<button id = "callgame" onclick= "game()">game start</button>
+<div id= "confirmop" onmouseover="mOver(this)" onmouseout="mOut(this)"  onclick= "game()"><p id = "callgame" style="text-align: center;"></br>game start</p></div>
+<button id = "hc" onclick= "gethighscore()">load highscore</button>
 <button id = "tergame" onclick= "cleargame()">stop playing</button>
-score: <span id= "count">0</span> &nbsp highscore: <span id= "highcount">click game start to checkout highscore</span>
+score: <span id= "count">0</span> &nbsp highscore: <span id= "highcount">click load highscore to checkout</span>
 </p>
 <div id="container">
 <div id= "dishu" onclick= "scoreplus()"></div>
