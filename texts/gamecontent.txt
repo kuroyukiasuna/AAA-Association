@@ -5,5 +5,5 @@ score: <span id= "count">0</span> &nbsp highscore: <span id= "highcount">click l
 </div>
 <div id="container">
 <div id= "confirmop" onmouseover="mOver(this)" onmouseout="mOut(this)"  onclick= "game()"><p id = "callgame" style="text-align: center;"></br>game start</p></div>
-<div id= "dishu" onclick= "scoreplus()"></div>
+<div id= "dishu" onmouseover="mOver(this)" onmouseout="mOut(this)" onclick= "scoreplus()"></div>
 </div>
