@@ -4,18 +4,18 @@
 <style>
 #pic{        /*logo*/
 width: 140px;
-height: 90px;
+height: 140px;
 position: absolute;
 top: 0px;
 left: 0px;
 border: 2px solid #d3d3d3;
-background: #f3f3f3;
+background: #f7f7f7;
 
 }
 
 
 #navbar{  /*navigation bar*/
- left: 140px;
+ left: 144.3px;
  top: 0px;
  height: 90px;
  width: 100%;
@@ -26,7 +26,7 @@ background: #f3f3f3;
 #navop1{  /*option: dashboard*/
 width: 120px;
 height: 90px;
-left: 140px;
+left: 144.3px;
 top: 2px;
 position: absolute;
 background: "";
@@ -36,7 +36,7 @@ background: "";
 #navop2{  /*option: A-kun words collection*/
 width: 120px;
 height: 90px;
-left: 260px;
+left: 264.3px;
 top: 2px;
 position: absolute;
 background: "";
@@ -45,21 +45,24 @@ background: "";
 
 #db{ /*dashboard*/
 width: 2px;
-height: 27px;
+height: 48.9px;
 background: #d3d3d3;
-top: 94.8px;
-left: 0px;
+top: 94.7px;
+left: 144.3px;
 position: absolute;
 }
 
 #buton1{  /*dashborad: play a game*/
-top: 2px;
-left: 2px;
+top: 14px;
+left: 7px;
 position: relative;
 display: none;
 
 }
 #buton2{
+top: 14px;
+left: 7px;
+position: relative;
 display: none;
 
 }
@@ -71,16 +74,51 @@ display: none;
 
 #buton4{
 display: none;
+}
 
+#dishu{
+width: 75px;
+height: 75px;
+position: absolute;
+background: gold;
+display:none;
+}
+
+#container {
+  width: 450px;
+  height: 450px;
+  position: relative;
+top: 90px;
+left: 90px;
+  background: silver;
+border: 10px solid #f3f3f3;
+display: none;
+
+  
+}
+
+#gameoptions{
+ position: absolute;
+ top: 50px;
+ left: 90px;
+display: none;
 }
 
 #maincontent{
 width: 100%;
 height: 100%;
-top: 130px;
+top: 147px;
 left: 0px;
 position: absolute;
+}
 
+#gamecontent{
+width: 100%;
+height: 100%;
+top: 147px;
+left: 0px;
+position: absolute;
+display:none;
 }
 
 </style>
@@ -88,7 +126,7 @@ position: absolute;
 <title>AAA Association</title>
 <body>
 
-<img src = # alt = "AAA logo" id = "pic" onclick="clearmaincontent()">
+<img src= "https://raw.githubusercontent.com/kuroyukiasuna/AAA-Association/master/pic/AAAlogo2.png" alt = "AAA logo" id = "pic" onclick="clearmaincontent()">
 </img>
 
 
@@ -97,14 +135,27 @@ Your browser does not support the HTML5 canvas tag.</canvas>
 
 <div id= "navop1" onmouseover="mOver(this)" onmouseout="mOut(this)"  onclick = "calldashboard()"><p style="text-align: center;"></br>dashboard</p></div>
 
-<div id= "navop2" onmouseover="mOver(this)" onmouseout="mOut(this)"  onclick = "loadYulu()"><p style="text-align: center;"></br>A¾ýÓïÂ¼</p></div>
+<div id= "navop2" onmouseover="mOver(this)" onmouseout="mOut(this)"  onclick = "loadYulu()"><p style="text-align: center;"></br>A???</p></div>
 
 <div id="db">
-<button id="buton1" onclick="playgame()">play a game</button>
+<button id="buton1" onclick="loadgame()">play a game</button>
+<button id="buton2" onclick="loadHaha()">News-press</button>
 </div>
 
-<div id="maincontent">&nbsp
+<div id="maincontent">&nbsp</div>
+<div id="gamecontent">
+<p id = "gameoptions">
+<button id = "callgame" onclick= "game()">game start</button>
+<button id = "tergame" onclick= "cleangame()">stop playing</button>
+score: <span id= "count">0</span> &nbsp highscore: <span id= "highcount">0</span>
+</p>
+<div id="container">
+<div id= "dishu" onclick= "scoreplus()"></div>
 </div>
+</div>
+
+
+
 
 
 
@@ -128,11 +179,13 @@ function myFunction(){
 
 function getdashboard(obj){
 var d1  = document.getElementById("buton1");
+var d2  = document.getElementById("buton2");
  var id = setInterval(frame, 5);
  var pos = 0;
   function frame() {
     if (pos === 700) {
       d1.style.display = "inline";
+      d2.style.display = "inline";
       clearInterval(id);
       
     } else {
@@ -144,12 +197,14 @@ var d1  = document.getElementById("buton1");
 
 function hidedashboard(obj){
 var d1  = document.getElementById("buton1");
+var d2  = document.getElementById("buton2");
  var id = setInterval(frame, 5);
   var pos = 700;
   function frame() {
     if (pos === 0) {
       obj.style.width = 2+'px';
       d1.style.display = "none";
+ d2.style.display = "none";
        clearInterval(id);
     } else {
       pos -= 100; 
@@ -169,7 +224,7 @@ hidedashboard(d);
 };
 
 function tiankeng(){
-alert("Æ½¸çÌî¿Ó");
+alert("????");
 
 };
 
@@ -182,19 +237,31 @@ function loadYulu() {
       yulutxt.innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "https://raw.githubusercontent.com/kuroyukiasuna/AAA-Association/master/a-kun%20yulu.txt", true);
+  xhttp.open("GET", "https://raw.githubusercontent.com/kuroyukiasuna/AAA-Association/master/texts/a-kun%20yulu.txt", true);
+  xhttp.send();
+};
+
+function loadHaha() {
+  var yulutxt = document.getElementById("maincontent");
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      yulutxt.innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "https://raw.githubusercontent.com/kuroyukiasuna/AAA-Association/master/texts/hahaha.txt", true);
   xhttp.send();
 };
 
 function clearmaincontent(){
  var maintxt = document.getElementById("maincontent");
+cleangame();
 maintxt.innerHTML = "";
 var d  = document.getElementById("db");
 if(d.style.width > "3px"){
  hidedashboard(d);
 }
-
-}
+};
 
 function mOver(obj){
 obj.style.background = "#d3d3d3";
@@ -202,6 +269,72 @@ obj.style.background = "#d3d3d3";
 
 function mOut(obj){
 obj.style.background = "";
+};
+
+var score = 0;
+var highscore = 0;
+
+function scoreplus(){
+ score = score + 1;
+ var para = document.getElementById("count");
+ para.innerHTML = score;
+};
+
+function loadgame(){
+var dishu = document.getElementById("dishu");
+var con = document.getElementById("container");
+var para = document.getElementById("gameoptions");
+var gamecon = document.getElementById("gamecontent");
+dishu.style.display = "block";
+con.style.display = "block";
+para.style.display = "inline";
+gamecon.style.display = "block";
+};
+
+function game(){
+var para = document.getElementById("count");
+var para2 = document.getElementById("highcount");
+var gamebutton = document.getElementById("callgame");
+var dishu = document.getElementById("dishu");
+
+var dtop = 0;
+var dleft = 0;
+var timer = 0;
+  var id = setInterval(frame, 900);
+  function frame() {
+    if (timer == 10) {
+ if(score > highscore){
+ highscore = score;
+ alert(score+"\nnew highscore!")
+}else{
+ alert(score);
+}
+
+     score = 0;
+ para.innerHTML = score;
+      clearInterval(id);
+    } else {
+      timer++; 
+      dtop = Math.floor((Math.random() * 375));
+      dleft = Math.floor((Math.random() * 375));
+      dishu.style.top = dtop + 'px'; 
+      dishu.style.left = dleft + 'px'; 
+    }
+  }
+
+};
+
+function cleangame(){
+var dishu = document.getElementById("dishu");
+var con = document.getElementById("container");
+var para = document.getElementById("gameoptions");
+var gamecon = document.getElementById("gamecontent");
+dishu.style.display = "none";
+con.style.display = "none";
+para.style.display = "none";
+gamecon.style.display = "none";
+
+
 };
 
 
