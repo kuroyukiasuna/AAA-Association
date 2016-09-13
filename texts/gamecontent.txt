@@ -1,3 +1,4 @@
+<div id="howtoplay">You have 10 seconds, try to click on the moving square as many times as possible!</div>
 <div id = "gameoptions">
 <button id = "hc" onclick= "gethighscore()">load highscore</button>
 <button id = "tergame" onclick= "cleargame()">stop playing</button>

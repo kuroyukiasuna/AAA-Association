@@ -1,1 +1,0 @@
-<div>Try click on the moving square as many times as possible!</div>
