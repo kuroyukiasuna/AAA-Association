@@ -1,7 +1,7 @@
 <p id = "gameoptions">
 <button id = "callgame" onclick= "game()">game start</button>
 <button id = "tergame" onclick= "cleargame()">stop playing</button>
-score: <span id= "count">0</span> &nbsp highscore: <span id= "highcount">0</span>
+score: <span id= "count">0</span> &nbsp highscore: <span id= "highcount">click game start to checkout highscore</span>
 </p>
 <div id="container">
 <div id= "dishu" onclick= "scoreplus()"></div>
