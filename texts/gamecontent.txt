@@ -11,4 +11,4 @@ score: <span id= "count">0</span> &nbsp highscore: <span id= "highcount">click l
 <div id= "dishu" onmouseover="mOver(this)" onmouseout="mOut(this)" onclick= "scoreplus()"></div>
 </div>
 </br>
-<div id= "warning1">×¢Òâ£º´ËÍøÕ¾²¢Ã»ÓĞfile server£¬¹ØÍøÒ³µÄ»°highscore²»»á±£´æ¡£</div>
+<div id= "warning1">æ³¨æ„ï¼šæ­¤ç½‘ç«™å¹¶æ²¡æœ‰file server,å…³é—­ç½‘é¡µåä¸ä¼šä¿å­˜highscoreã€‚</div>
