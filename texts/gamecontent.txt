@@ -1,4 +1,4 @@
-<div id="howtoplay"><strong>You have 10 seconds, try to click on the moving square as many times as possible!</strong></div>
+﻿<div id="howtoplay"><strong>You have 10 seconds, try to click on the moving square as many times as possible!</strong></div>
 </br>
 <div id = "gameoptions">
 <button id = "hc" onclick= "gethighscore()">load highscore</button>
@@ -6,8 +6,9 @@
 score: <span id= "count">0</span> &nbsp highscore: <span id= "highcount">click load highscore to checkout</span>
 </div>
 </br>
-<div id="container">
 <div id= "confirmop" onmouseover="mOver(this)" onmouseout="mOut(this)"  onclick= "game()"><p id = "callgame" style="text-align: center;"></br>game start</p></div>
+</br>
+<div id="container">
 <div id= "dishu" onmouseover="mOver(this)" onmouseout="mOut(this)" onclick= "scoreplus()"></div>
 </div>
 </br>
