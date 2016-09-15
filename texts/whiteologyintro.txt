@@ -34,7 +34,7 @@
 </br>
 协会所有成员将全力支持白学研究会进行研究！
 </br></br>
-<img src="https://github.com/kuroyukiasuna/AAA-Association/blob/master/pic/whiteology.jpg?raw=true" alt="text_book_cover" style="height: 375px;width: 270px;">
+<img src="https://github.com/kuroyukiasuna/AAA-Association/blob/master/pic/whiteology.jpg?raw=true" alt="text_book_cover" style="height: 360px;width: 500px;">
 </br>
 <strong>白学研究会推出教材，定价$19.8</strong>
 </br>
