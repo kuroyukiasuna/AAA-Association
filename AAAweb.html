@@ -279,6 +279,9 @@ var yulutxt = document.getElementById("maincontent");
   xhttp.send();
 };
 toMaincontent();
+window.onbeforeunload = function () {
+  window.scrollTo(0,0);
+};
 
 function getdashboard(obj){
 var d1  = document.getElementById("buton1");
