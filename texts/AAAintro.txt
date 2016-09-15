@@ -1,5 +1,6 @@
 <div style="height: 100%; width: 100%; top: 50px; left: 50px; position: relative;">
-<h1>3A协会是什么？</h1>
+<h1>简介</h1>
+<h2>3A协会是什么？</h2>
 3A协会是坚持和贯彻三个A：Adrian,Adrianism,Adrinization的非盈利工会。
 </br>
 其主要活动有：
