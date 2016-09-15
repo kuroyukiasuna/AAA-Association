@@ -1,19 +1,19 @@
 <div style="height: 100%; width: 100%; top: 50px; left: 50px; position: relative;">
-<h1>3AЭ����ʲô��</h1>
-3AЭ���Ǽ�ֺ͹᳹����A��Adrian,Adrianism,Adrinization�ķ�ӯ�����ᡣ
+<h1>3A协会是什么？</h1>
+3A协会是坚持和贯彻三个A：Adrian,Adrianism,Adrinization的非盈利工会。
 </br>
-����Ҫ��У�
+其主要活动有：
 </br>
 <ul>
-<li>����A��</li>
-<li>����A��</li>
-<li>����A��</li>
-<li>���Ż�������A��</li>
-<li>һ�߳Է�һ������A���ȡ�</li>
+<li>赞美A君</li>
+<li>赞美A君</li>
+<li>赞美A君</li>
+<li>变着花样赞美A君</li>
+<li>一边吃饭一边赞美A君等。</li>
 </ul>
-3AЭ�������ļ�³�Ա�У���ӭ��Ҽ��������������ˣ�
+3A协会持续招募新成员中，欢迎大家嘉明，啊不，加盟！
 </br>
-<img src="https://github.com/kuroyukiasuna/AAA-Association/blob/master/pic/IMG_0669.JPG?raw=true" style="height: 400px;width: 640px;" alt="���¼">
+<img src="https://github.com/kuroyukiasuna/AAA-Association/blob/master/pic/IMG_0669.JPG?raw=true" style="height: 400px;width: 640px;" alt="活动记录">
 </br>
-<strong>3AЭ��2014�꼯���¼����Դ��������</strong>
+<strong>3A协会2014年集会记录（来源，嘉明） </strong>
 </div>
