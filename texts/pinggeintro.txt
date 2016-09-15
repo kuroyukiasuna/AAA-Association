@@ -10,7 +10,7 @@
 拥有多重身份。曾经有在饭店工作的经验，同时也是程序员，各类游戏职业选手，好爸爸，好大腿，制杖师。
 </br>
 </br>
-<img src="https://github.com/kuroyukiasuna/AAA-Association/blob/master/pic/PingLegend.jpg" alt="平哥传奇">
+<img src="https://github.com/kuroyukiasuna/AAA-Association/blob/master/pic/PingLegend.jpg?raw=true" alt="平哥传奇">
 </br><strong>不吹不黑，就是牛逼 </strong>
 </br>
 </br>
