@@ -5,6 +5,7 @@
 根据会长郑先生提出的：
 </br>
 </br>
+<strong>
 好好学习白学知识，深入学习白学思想，
 </br>
 对内和谐友爱进行白学研究探讨，
@@ -12,6 +13,7 @@
 对外积极宣传白学思想理念，
 </br>
 将我白学发扬光大！
+</strong>
 </br>
 </br>
 的中心思想理念，对《白色相簿》（《White Album》）进行学习研究，并领悟白学的真谛，
@@ -32,7 +34,7 @@
 </br>
 协会所有成员将全力支持白学研究会进行研究！
 </br></br>
-<img src="https://github.com/kuroyukiasuna/AAA-Association/blob/master/pic/whiteology.jpg?raw=true" alt="text_book_cover" style="height:750;width:540;">
+<img src="https://github.com/kuroyukiasuna/AAA-Association/blob/master/pic/whiteology.jpg?raw=true" alt="text_book_cover" style="height:187.5;width:135;">
 </br>
 <strong>白学研究会推出教材，定价$19.8</strong>
 </br>
