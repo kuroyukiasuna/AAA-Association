@@ -1,27 +1,27 @@
 <div style="height: 100%; width: 100%; top: 50px; left: 50px; position: relative;">
 <h1>
-ƽ��
+平哥
 </h1>
-ƽ�磬3AЭ��Ԫ��֮һ��֪ʶ��㷺��˼·������Ϊ��������ϲ��ܳ�����顣
-</br>3AЭ�����ʦ�ܿ�����ĵڶ�ͷ�Ե�����
+平哥，3A协会元老之一。知识面广泛，思路清晰，为人善良，喜爱艹物理书。
+</br>3A协会除军师哲凯以外的第二头脑担当。
 </br>
-�����ܲ������ţ�����Ϊ�������A����ϵʮ�ֺã�����Waterloo HQ��ְ��������Ա֮һ��
+负责监管财政部门，与作为吉祥物的A君关系十分好，现在Waterloo HQ就职，主力成员之一。
 </br>
-ӵ�ж������ݡ��������ڷ��깤���ľ��飬ͬʱҲ�ǳ���Ա��������Ϸְҵѡ�֣��ðְ֣��ô��ȣ�����ʦ��
+拥有多重身份。曾经有在饭店工作的经验，同时也是程序员，各类游戏职业选手，好爸爸，好大腿，制杖师。
 </br>
-<img src="https://github.com/kuroyukiasuna/AAA-Association/blob/master/pic/%E5%B9%B3%E5%93%A5%E4%BC%A0%E5%A5%87.jpg" alt="ƽ�紫��">
-</br><strong>�������ڣ�����ţ��</strong>
+<img src="https://github.com/kuroyukiasuna/AAA-Association/blob/master/pic/%E5%B9%B3%E5%93%A5%E4%BC%A0%E5%A5%87.jpg" alt="平哥传奇">
+</br><strong>不吹不黑，就是牛逼 </strong>
 </br>
-��3AЭ�����Ҫְλ��Business Development����ְ�ܰ����г������Լ����˵�Ȱ����ָ����
+在3A协会的主要职位是Business Development。其职能包括市场调研以及新人的劝诱与指导。
 </br>
-ϲ��������ƽ������̫���ڷ�æ����û��ʱ��ȥѰ��Ů���ѣ��ֺ���������Ա���ģ����Թ���˵�Լ�������û����Ȥ��
+喜爱工作的平哥由于太过于繁忙，并没有时间去寻找女朋友，又害怕其他会员担心，所以故意说自己对妹子没有兴趣。
 </br>
-��������Ѿ��ܵ�Э��߲�ĸ߶����ӣ���Ϊƽ����ѵ�A����ʾ�����㾡ȫ��Ϊƽ��Ѱ��һλ���ʵ�Ů�ѡ�
+这个问题已经受到协会高层的高度重视，身为平哥好友的A君表示，将倾尽全力为平哥寻找一位合适的女友。
 </br>
-����Ҳ�ڴ�ףԸƽ�������ҵ���һ�롣
+我们也在此祝愿平哥早日找到另一半。
 </br>
 </br>
-<strong>"�Ǻ�"</strong>
+<strong>"呵呵"</strong>
 </br>
 &nbsp &nbsp &nbsp --Siping Xue
 </div>
