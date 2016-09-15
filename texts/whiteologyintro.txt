@@ -1,43 +1,43 @@
 <div style="height: 100%; width: 100%; top: 50px; left: 50px; position: relative;">
-<h1>��ѧ�о���</h1>
-��ѧ�о������ڻ᳤֣��(Peter Zheng)���������µ�һ֧�԰�ѧ�������ε��е��Ŷӡ�
+<h1>白学研究会</h1>
+白学研究会是在会长郑天(Peter Zheng)先生带领下的一支对白学进行深层次调研的团队。
 </br>
-���ݻ᳤֣��������ģ�
-</br>
-</br>
-�ú�ѧϰ��ѧ֪ʶ������ѧϰ��ѧ˼�룬
-</br>
-���ں�г�Ѱ����а�ѧ�о�̽�֣�
-</br>
-�������������ѧ˼�����
-</br>
-���Ұ�ѧ������
+根据会长郑先生提出的：
 </br>
 </br>
-������˼������ԡ���ɫ�ಾ������White Album��������ѧϰ�о����������ѧ�����У�
+好好学习白学知识，深入学习白学思想，
 </br>
-������ֻ�Ŷ����ڵĻ���롣
+对内和谐友爱进行白学研究探讨，
 </br>
-����һֻʵ���ۺ���Ŷӣ�
+对外积极宣传白学思想理念，
 </br>
-�Ŷ�ӵ���������о�Ա��ͬʱ����ӵ��ҵ��֪����ϯ�о�Ա - Licheng Lin�������Լ�
-</br>
-����ø�� - ��Jerry�����ܣ��Ŷ�ʵ���ɼ�һ�ߡ�
+将我白学发扬光大！
 </br>
 </br>
+的中心思想理念，对《白色相簿》（《White Album》）进行学习研究，并领悟白学的真谛，
 </br>
-��ѧ�о�����3AЭ��ӵ���ų��ں�����ϵ��
+便是这只团队现在的活动方针。
 </br>
-��Զ��3AЭ��ĺ��ĳ�Ա���Ƕ԰�ѧ���ķ�չ���������ģ�
+这是一只实力雄厚的团队，
 </br>
-Э�����г�Ա��ȫ��֧�ְ�ѧ�о�������о���
+团队拥有若干名研究员的同时，还拥有业内知名首席研究员 - Licheng Lin先生，以及
+</br>
+国民好哥哥 - 大Jerry，王总！团队实力可见一斑。
+</br>
+</br>
+</br>
+白学研究会与3A协会拥有着长期合作关系。
+</br>
+有远见3A协会的核心成员更是对白学今后的发展抱有着信心，
+</br>
+协会所有成员将全力支持白学研究会进行研究！
 </br></br>
-<img src="" alt="text_book_cover" style="height:750;width:540;">
+<img src="https://github.com/kuroyukiasuna/AAA-Association/blob/master/pic/whiteology.jpg?raw=true" alt="text_book_cover" style="height:750;width:540;">
 </br>
-<strong>��ѧ�о����Ƴ��̲ģ�����$19.8</strong>
+<strong>白学研究会推出教材，定价$19.8</strong>
 </br>
 </br>
-�Ȿ�̲�����ǳ���ؽ����˰�ѧ��һ��Ҫ�㣺�ȶ��⡣
+这本教材深入浅出地讲解了白学第一大要点：扇耳光。
 </br>
-�����ڸ���ͼ���̵깺��Ҳ������3AЭ���Ա���ѧ�о����о������Σ���ĳ����
+可以在各大图书商店购买，也可以找3A协会成员兼白学研究会研究室主任：党某购买。
 </div>
