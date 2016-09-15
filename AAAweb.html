@@ -28,7 +28,7 @@ cursor: pointer;
 width: 120px;
 height: 90px;
 left: 144.3px;
-top: 2px;
+top: 3px;
 position: absolute;
 background: "";
 cursor: pointer;
@@ -38,7 +38,7 @@ cursor: pointer;
 width: 120px;
 height: 90px;
 left: 264.3px;
-top: 2px;
+top: 3px;
 position: absolute;
 background: "";
 cursor: pointer;
@@ -222,7 +222,7 @@ Your browser does not support the HTML5 canvas tag.</canvas>
 </div>
 
 <div id="navop3" class="dropdown">
-  <div class="dropbtn"><div style="text-align: center;"></br></br>成员</div></div>
+  <div class="dropbtn"><div style="text-align: center;"></br></br>成员列表</div></div>
 
   <div class="dropdown-content">
     <div onmouseover="mOver(this)" onmouseout="mOut(this)" >A君</div>
@@ -240,7 +240,7 @@ Your browser does not support the HTML5 canvas tag.</canvas>
   <div class="dropbtn"><div style="text-align: center;"></br></br>合作单位</div></div>
 
   <div class="dropdown-content">
-    <div onmouseover="mOver(this)" onmouseout="mOut(this)" >白学研究会</div>
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)"onclick="loadbaixueintro()" >白学研究会</div>
 
   </div>
 </div>
@@ -368,6 +368,18 @@ function loadpinggeintro() {
     }
   };
   xhttp.open("GET", "https://raw.githubusercontent.com/kuroyukiasuna/AAA-Association/master/texts/pinggeintro.txt", true);
+  xhttp.send();
+};
+
+function loadbaixueintro() {
+  var yulutxt = document.getElementById("maincontent");
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      yulutxt.innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "https://raw.githubusercontent.com/kuroyukiasuna/AAA-Association/master/texts/whiteologyintro.txt", true);
   xhttp.send();
 };
 
