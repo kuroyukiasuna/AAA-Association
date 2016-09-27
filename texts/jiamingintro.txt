@@ -1,8 +1,14 @@
-ÐÕÃû£º°¬¼ªÅ·
-ÄêÁä£ºÎ´Öª
+<div style="height: 100%; width: 100%; top: 50px; left: 50px; position: relative;">
+</br>
+</br>
+<h3>å§“åï¼šè‰¾å‰æ¬§
+å¹´é¾„ï¼šæœªçŸ¥</h3>
 
-
-ÊìÁ·ÔËÓÃ¸÷ÖÖÎäÆ÷£¬µ¶°¡½£°¡¹­°¡Ç¹°¡ÐÒÔËex°¡µÈµÈ£¬±ü³Ð×Å²»»áÄ§·¨µÄÕ½Ê¿²»ÊÇºÃµÁÔôµÄÔ­Ôò£¬ÉÆÓÚ¸øÎäÆ÷¼Óbuff
-ÏÖÁ¥ÊôÓÚÌ«ÑôÉñ½ÌÊÇÒ»Ãû½¾°ÁµÄÌ«ÑôÆïÊ¿
-°®ºÃÑøÒ»Ð©ÆæÝâµÄ¶«Î÷£¬Ê²Ã´µð×Å½£µÄÀÇ°¡£¬ÉÏÉíÂãÅ®ÏÂÉíÖ©ÖëµÄ¶«Î÷°¡£¬Ö»ÄÜÓÃÔ¶³ÌÎäÆ÷ºÍÄ§·¨²ÅÄÜ´òµ½µÄÆËÀâ¶ê×Ó°¡µÈµÈ
-ÊÊÓ¦ÄÜÁ¦ex£¬Ö»Òª¸øËû¸ö»ð¶Ñ¾ÍÄÜ»î£¬²¢ÇÒ¿ÉÒÔ×ÔÓÉÒÆ¶¯µ½ÆäËûµØÇøµÄ»ð¶Ñ
+ç†Ÿç»ƒè¿ç”¨å„ç§æ­¦å™¨ï¼Œåˆ€å•Šå‰‘å•Šå¼“å•Šæžªå•Šå¹¸è¿exå•Šç­‰ç­‰ï¼Œç§‰æ‰¿ç€ä¸ä¼šé­”æ³•çš„æˆ˜å£«ä¸æ˜¯å¥½ç›—è´¼çš„åŽŸåˆ™ï¼Œå–„äºŽç»™æ­¦å™¨åŠ buffã€‚</br>
+çŽ°éš¶å±žäºŽå¤ªé˜³ç¥žæ•™æ˜¯ä¸€åéª„å‚²çš„å¤ªé˜³éª‘å£«ã€‚</br>
+çˆ±å¥½å…»ä¸€äº›å¥‡è‘©çš„ä¸œè¥¿ï¼Œä»€ä¹ˆå¼ç€å‰‘çš„ç‹¼å•Šï¼Œä¸Šèº«è£¸å¥³ä¸‹èº«èœ˜è››çš„ä¸œè¥¿å•Šï¼Œåªèƒ½ç”¨è¿œç¨‹æ­¦å™¨å’Œé­”æ³•æ‰èƒ½æ‰“åˆ°çš„æ‰‘æ£±è›¾å­å•Šç­‰ç­‰ã€‚</br>
+é€‚åº”èƒ½åŠ›exï¼Œåªè¦ç»™ä»–ä¸ªç«å †å°±èƒ½æ´»ï¼Œå¹¶ä¸”å¯ä»¥è‡ªç”±ç§»åŠ¨åˆ°å…¶ä»–åœ°åŒºçš„ç«å †ã€‚</br>
+<img src="https://github.com/kuroyukiasuna/AAA-Association/blob/master/pic/PingLegend.jpg?raw=true" style="height:400px;width: 640px;" alt="å¹³å“¥ä¼ å¥‡">
+</br>
+</br>
+</div>
