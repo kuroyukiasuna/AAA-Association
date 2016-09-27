@@ -1,7 +1,8 @@
 <div style="height: 100%; width: 100%; top: 50px; left: 50px; position: relative;">
+<h1>嘉明</h1>
 </br>
 </br>
-<h3>姓名：艾吉欧
+<h3>艾吉欧，
 年龄：未知</h3>
 
 熟练运用各种武器，刀啊剑啊弓啊枪啊幸运ex啊等等，秉承着不会魔法的战士不是好盗贼的原则，善于给武器加buff。</br>
