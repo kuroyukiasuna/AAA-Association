@@ -1,7 +1,6 @@
 <div style="height: 100%; width: 100%; top: 50px; left: 50px; position: relative;">
 <h1>嘉明</h1>
 </br>
-</br>
 <h3>艾吉欧，
 年龄：未知</h3>
 
