@@ -426,7 +426,8 @@ function loadkeyanxiangmu() {
   xhttp.send();
 };
 
-function loadfengxia(x) {
+function loadfengxia1() {
+  console.log("I did run");
   var yulutxt = document.getElementById("maincontent");
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -434,7 +435,7 @@ function loadfengxia(x) {
       yulutxt.innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", x, true);
+  xhttp.open("GET", "https://raw.githubusercontent.com/kuroyukiasuna/AAA-Association/master/texts/Fengxia1.txt", true);
   xhttp.send();
 };
 

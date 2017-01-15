@@ -10,7 +10,7 @@
 <p>以下是平哥对作品《风夏》进行的每周报告：
 </br>
 </br>
-<a href="" onclick="loadfengxia1()">Week1 Report</a>
+<button onclick="loadfengxia1()">Week1 Report</button>
 </p>
 <div>
 
