@@ -64,6 +64,16 @@ background: "";
 cursor: pointer;
 }
 
+#navop5{  /*Projects*/
+width: 120px;
+height: 90px;
+left: 624.3px;
+top: 2px;
+position: absolute;
+background: "";
+cursor: pointer;
+}
+
 #db{ /*dashboard*/
 width: 2px;
 height: 48.9px;
@@ -245,6 +255,15 @@ Your browser does not support the HTML5 canvas tag.</canvas>
   </div>
 </div>
 
+<div id="navop5" class="dropdown">
+  <div class="dropbtn"><div style="text-align: center;"></br></br>主要项目</div></div>
+
+  <div class="dropdown-content">
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)"onclick="loadbaixueintro()" >白学科研</div>
+
+  </div>
+</div>
+
 
 
 
@@ -384,6 +403,18 @@ function loadjiamingintro() {
 };
 
 function loadbaixueintro() {
+  var yulutxt = document.getElementById("maincontent");
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      yulutxt.innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "https://raw.githubusercontent.com/kuroyukiasuna/AAA-Association/master/texts/whiteologyintro.txt", true);
+  xhttp.send();
+};
+
+function loadkeyanxiangmu() {
   var yulutxt = document.getElementById("maincontent");
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
