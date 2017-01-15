@@ -1,4 +1,4 @@
-<div style="height: 100%; width: 100%; top: 50px; left: 50px; position: relative;">
+﻿<div style="height: 100%; width: 100%; top: 50px; left: 50px; position: relative;">
 </br>
 <p>白学研究会全体成员公告： 即日起，在荣誉会长Peter Zheng的带领下，
 </br>本研究会将对新番白学作品《风夏》进行学习与研究，主要对其中的白学元素进行探讨，最终完成报告。
@@ -9,7 +9,8 @@
 </br>
 <p>以下是平哥对作品《风夏》进行的每周报告：
 </br>
-<a href="" onclick="loadfengxia('https://raw.githubusercontent.com/kuroyukiasuna/AAA-Association/master/texts/whiteologyintro.txt')">Week1 Report</a>
+</br>
+<a href="" onclick="loadfengxia1()">Week1 Report</a>
 </p>
 <div>
 
